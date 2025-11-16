@@ -83,3 +83,7 @@
     @apply text-foreground;
   }
 }
+
+html {
+  overflow-x: hidden;
+}

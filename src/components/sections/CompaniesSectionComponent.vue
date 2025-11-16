@@ -1,5 +1,5 @@
 <template>
-  <div class="flex flex-col items-center gap-10 justify-center max-w-[990px]">
+  <div v-if="sponsors.length > 0" class="flex flex-col items-center gap-10 justify-center max-w-[990px]">
     <span class="text-3xl text-center">Our Sponsors</span>
 
     <span class="flex flex-col items-center gap-20 justify-center max-w-[990px]">
@@ -41,10 +41,15 @@ import {useSponsorsStore, Sponsor} from "@/store/sponsors.ts";
 
 export default {
   name: 'CompaniesSectionComponent',
+  props: {
+    year: {
+      type: Number,
+      required: true,
+    }
+  },
   data() {
     return {
-      year: this.$route.params.year,
-      sponsors: [] as Sponsor[]
+      sponsors: [] as Sponsor[],
     }
   },
   created() {

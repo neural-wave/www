@@ -5,7 +5,7 @@
 
       <div class="flex flex-wrap justify-center gap-6">
         <img src="../assets/pill/pill-location.svg" class="h-[35px]" alt="Lugano is the location of the hackathon" />
-        <img src="../assets/pill/pill-date.svg" class="h-[35px]" alt="The hackathon lasts from the 25th to the 27th of October" />
+        <img src="../assets/pill/pill-date-24.svg" class="h-[35px]" alt="The hackathon lasts from the 25th to the 27th of October" />
       </div>
     </div>
 
@@ -57,7 +57,8 @@
       </div>
     </div>
 
-    <companies-section-component class="mt-20"/>
+    <companies-section-component class="mt-20" :year="year" />
+    <team-section-component class="mt-20" :year="year" />
   </div>
 </template>
 
@@ -69,13 +70,20 @@ import {Repos, useReposStore} from "@/store/repos.ts";
 import GalleryComponent from "@/components/GalleryComponent.vue";
 import RepoCardComponent from "@/components/cards/RepoCardComponent.vue";
 import CompaniesSectionComponent from "@/components/sections/CompaniesSectionComponent.vue";
+import TeamSectionComponent from "@/components/sections/TeamSectionComponent.vue";
 
 export default {
   name: "RecapView",
-  components: {CompaniesSectionComponent, RepoCardComponent, GalleryComponent, StatsCardComponent},
+  components: {
+    CompaniesSectionComponent,
+    RepoCardComponent, 
+    GalleryComponent,
+    StatsCardComponent,
+    TeamSectionComponent,
+  },
   data() {
     return {
-      year: this.$route.params.year,
+      year: Number(this.$route.params.year),
       recap: {} as Recap,
       repos: {} as Repos
     }
@@ -86,7 +94,7 @@ export default {
   },
   methods: {
     ...mapActions(useRecapsStore, ['getRecapByYear']),
-    ...mapActions(useReposStore, ['getReposByYear'])
+    ...mapActions(useReposStore, ['getReposByYear']),
   }
 }
 </script>

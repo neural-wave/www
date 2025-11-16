@@ -1,7 +1,7 @@
 <template>
-  <div class="absolute w-full z-[-1]">
-    <img class="absolute block left-0 bottom-0" src="../../assets/background/green-bottom.svg" alt="green background" />
-    <img class="absolute block right-0 bottom-0" src="../../assets/background/violet-bottom.svg" alt="violet background" />
+  <div class="fixed w-full z-[-1]">
+      <img class="fixed block left-[-20%] bottom-[-1000px]" src="../../assets/background/green-bottom.png" alt="green background" />
+      <img class="fixed block right-[-20%] bottom-0" src="../../assets/background/violet-bottom.png" alt="violet background" />
   </div>
 </template>
 

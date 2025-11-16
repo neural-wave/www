@@ -1,9 +1,9 @@
 <template>
   <div class="flex flex-col items-center justify-center gap-20">
-    <span class="text-3xl text-center">The Team</span>
+    <span class="text-3xl text-center">Organizing Committee</span>
 
     <div class="flex flex-wrap justify-center gap-16 max-w-[784px]">
-      <div v-for="member in teamMembers()" :key="member.name" class="flex flex-col items-center text-center w-[148px] gap-4">
+      <div v-for="member in team" :key="member.name" class="flex flex-col items-center text-center w-[148px] gap-4">
         <img
             :src="getProPic(member.image)"
             :alt="`${member.name} profile picture`"
@@ -33,16 +33,30 @@
 </template>
 
 <script lang="ts">
-import {mapState} from "pinia";
-import {useTeamStore} from "@/store/team.ts";
+import {mapActions} from "pinia";
+import {useTeamStore, TeamMember} from "@/store/team.ts";
 
 export default {
   name: 'TeamSectionComponent',
+  props: {
+    year: {
+      type: Number,
+      required: true,
+    }
+  },
+  data() {
+    return {
+      team: [] as TeamMember[],
+    }
+  },
+  created() {
+    this.team = this.getTeamByYear()(this.year)
+  },
   methods: {
     getProPic(name: string) {
       return new URL(`../../assets/team/${name}.jpg`, import.meta.url).href
     },
-    ...mapState(useTeamStore, ['teamMembers'])
+    ...mapActions(useTeamStore, ['getTeamByYear'])
   }
 }
 </script>

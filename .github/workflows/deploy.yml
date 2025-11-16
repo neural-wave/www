@@ -1,25 +1,57 @@
-name: Deploy to github pages
+name: Deploy
 
 on:
   push:
-    branches:
-      - dev
+    branches: [dev]
+
+permissions: {}
 
 jobs:
-  gh-pages-deploy:
-    name: Deploying to gh-pages
+  build:
+    name: Build
     runs-on: ubuntu-latest
+
+    permissions:
+      id-token: write
+      contents: read
+
     steps:
-      - name: Setup Node.js for use with actions
-        uses: actions/setup-node@v4
+      - name: Clone repository
+        uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683 # v4.2.2
 
-      - name: Checkout branch
-        uses: actions/checkout@v4
+      - name: Setup Node
+        uses: actions/setup-node@1d0ff469b7ec7b3cb9d8673fde0c81c44821de2a # v.28.5
+        with:
+          cache: npm
+          node-version: 20.16.0
 
-      - name: Clean install dependencies
-        run: yarn install --frozen-lockfile
+      - name: Install dependencies
+        run: npm ci
 
-      - name: Run deploy script
-        run: |
-          git config user.name "EdoardoRiggio" && git config user.email "edo.riggio19@gmail.com"
-          sh ./scripts/deploy.sh
+      - name: Build with Vite
+        run: npm run build
+
+      - name: Upload static files as artifact
+        uses: actions/upload-pages-artifact@56afc609e74202658d3ffba0e8f6dda462b719fa # v.3.0.1
+        with:
+          name: production-files
+          path: ./dist
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+
+    permissions:
+      id-token: write
+      pages: write
+
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+
+    steps:
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@d6db90164ac5ed86f2b6aed7e0febac5b3c0c03e # v4.0.5
+        with:
+          artifact_name: production-files

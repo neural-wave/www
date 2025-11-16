@@ -2,7 +2,7 @@
   <div class="flex flex-col justify-center items-center gap-9 py-20 sm:h-[calc(80vh-145px)]">
     <div class="flex flex-wrap justify-center gap-6">
       <img src="../../assets/pill/pill-location.svg" class="h-[35px]" alt="Lugano is the location of the hackathon" />
-      <img src="../../assets/pill/pill-date.svg" class="h-[35px]" alt="The hackathon lasts from the 25th to the 27th of October" />
+      <img src="../../assets/pill/pill-date-26.svg" class="h-[35px]" alt="The hackathon will be in 2026" />
     </div>
 
     <span class="text-5xl font-[500] text-center">Where Innovation Meets AI</span>
@@ -15,7 +15,7 @@
     <div class="flex flex-col items-center gap-4">
 <!--      <span class="text-center opacity-60">What are you waiting for? <br /> The registration will close in</span>-->
 <!--      <span class="text-center opacity-60">What are you waiting for? <br /> A limited number of spots are still available!</span>-->
-      <span class="text-center opacity-60">The event is over, see you next year!</span>
+      <span class="text-center opacity-60">Get ready for the 2nd edition in 2026!</span>
 
 <!--      <div class="flex gap-2">-->
 <!--        <div class="flex flex-col items-center">-->
@@ -46,7 +46,7 @@
 <!--      </div>-->
 
 <!--      <cta-component href="https://usi.qualtrics.com/jfe/form/SV_bgCFvEjVFUvXq4u" variant="cta">Register Now!</cta-component>-->
-      <cta-component href="/recap">Go to the Recap!</cta-component>
+      <cta-component href="/series/2024">Go to the 2024 recap!</cta-component>
     </div>
   </div>
 </template>

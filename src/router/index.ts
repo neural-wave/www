@@ -4,36 +4,35 @@ const router = createRouter({
     history: createWebHashHistory(),
     routes: [
         {
-            path: '/:path([A-z]*)',
-            redirect: to => {
-                return { path: `/2024/${to.params.path}` }
-            }
-        },
-        {
-            path: '/:year',
+            path: '/',
             name: 'home',
             component: () => import('../views/HomeView.vue'),
         },
         {
-            path: '/:year/faq',
+            path: '/faq',
             name: 'faq',
             component: () => import('../views/FaqView.vue')
         },
         {
-            path: '/:year/schedule',
+            path: '/schedule',
             name: 'schedule',
             component: () => import('../views/ScheduleView.vue')
         },
         {
-            path: '/:year/location',
+            path: '/location',
             name: 'location',
             component: () => import('../views/LocationView.vue')
         },
         {
-            path: '/:year/recap',
-            name: 'recap',
-            component: () => import('../views/RecapView.vue')
-        }
+            path: '/series/',
+            name: 'series',
+            component: () => import('../views/SeriesListView.vue')
+        },
+        {
+            path: '/series/:year',
+            name: 'series_year',
+            component: () => import('../views/SeriesView.vue')
+        },
     ]
 })
 

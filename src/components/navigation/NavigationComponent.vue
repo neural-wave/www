@@ -7,6 +7,7 @@
       <router-link to="/location" :class="$route.name !== 'location' ? 'opacity-60 hover:opacity-100' : ''">Location</router-link>
       <router-link to="/schedule" :class="$route.name !== 'schedule' ? 'opacity-60 hover:opacity-100' : ''">Schedule</router-link>
       <router-link to="/faq" :class="$route.name !== 'faq' ? 'opacity-60 hover:opacity-100' : ''">FAQs</router-link>
+      <router-link to="/series" :class="$route.name !== 'series' ? 'opacity-60 hover:opacity-100' : ''">Series</router-link>
     </nav>
 
     <div v-if="showMenu" class="absolute top-0 bottom-0 left-0 right-0 h-full w-full z-10 bg-nw-dark-blue">
@@ -17,6 +18,7 @@
         <router-link to="/location" :class="$route.name !== 'location' ? 'opacity-60 hover:opacity-100' : ''" @click="toggleMenu">Location</router-link>
         <router-link to="/schedule" :class="$route.name !== 'schedule' ? 'opacity-60 hover:opacity-100' : ''" @click="toggleMenu">Schedule</router-link>
         <router-link to="/faq" :class="$route.name !== 'faq' ? 'opacity-60 hover:opacity-100' : ''" @click="toggleMenu">FAQs</router-link>
+        <router-link :class="$route.name !== 'series' ? 'opacity-60 hover:opacity-100' : ''">Series</router-link>
       </nav>
     </div>
   </div>
