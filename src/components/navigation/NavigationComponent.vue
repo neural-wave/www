@@ -18,7 +18,7 @@
         <router-link to="/location" :class="$route.name !== 'location' ? 'opacity-60 hover:opacity-100' : ''" @click="toggleMenu">Location</router-link>
         <router-link to="/schedule" :class="$route.name !== 'schedule' ? 'opacity-60 hover:opacity-100' : ''" @click="toggleMenu">Schedule</router-link>
         <router-link to="/faq" :class="$route.name !== 'faq' ? 'opacity-60 hover:opacity-100' : ''" @click="toggleMenu">FAQs</router-link>
-        <router-link :class="$route.name !== 'series' ? 'opacity-60 hover:opacity-100' : ''">Series</router-link>
+        <router-link to="/series" :class="$route.name !== 'series' ? 'opacity-60 hover:opacity-100' : ''" @click="toggleMenu">Series</router-link>
       </nav>
     </div>
   </div>

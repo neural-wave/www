@@ -1,6 +1,6 @@
 <template>
   <div class="h-full w-full">
-    <background-top-component v-if="$route.name === 'home' || $route.name?.toString().includes('series')" />
+    <background-top-component />
     <navigation-bar-component />
 
     <router-view />
