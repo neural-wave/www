@@ -8,7 +8,7 @@
       <img src="../../assets/icons/twitter-line.svg" class="w-5 h-5" alt="twitter logo icon"/>
     </a>
 
-    <a href="https://github.com/Neural-Wave" target="_blank">
+    <a href="https://github.com/neural-wave" target="_blank">
       <img src="../../assets/icons/github-line.svg" class="w-5 h-5" alt="twitter logo icon"/>
     </a>
 
