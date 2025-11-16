@@ -12,9 +12,9 @@
 
         <separator class="bg-nw-border h-[1px]" />
 
-        <span class="text-center opacity-60 font-[200] text-[14px]"
-            >&copy;2024 Neural Wave</span
-        >
+        <span class="text-center opacity-60 font-[200] text-[14px]">
+            &copy;{{year}} Neural Wave
+        </span>
 
          <!-- <background-bottom-component />  -->
     </nav>
@@ -32,6 +32,11 @@ export default {
         SocialComponent,
         BackgroundBottomComponent,
     },
+    data() {
+      return {
+        year: new Date().getFullYear()
+      }
+    }
 };
 </script>
 

@@ -114,14 +114,14 @@ export const useTeamStore = defineStore("team", {
             image: "andrea",
             linkedin: "https://www.linkedin.com/in/andrea-brites-marto/",
             github: "https://github.com/britesma",
-            website: "",
+            website: "https://www.sib.swiss/",
           },
           {
             name: "Michele Cattaneo",
             image: "michele",
             linkedin: "https://www.linkedin.com/in/michele-cattaneo-614527210/",
             github: "https://github.com/MicheleCattaneo",
-            website: "",
+            website: "https://www.datascience.ch/",
           },
           {
             name: "Auréliane Dubuis",
@@ -164,7 +164,7 @@ export const useTeamStore = defineStore("team", {
             image: "stefano",
             linkedin: "https://www.linkedin.com/in/stefano-taillefert",
             github: "https://github.com/Steeven9",
-            website: "",
+            website: "https://www.swisscom.ch/",
           },
         ] as TeamMember[]
       }
