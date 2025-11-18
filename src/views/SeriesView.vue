@@ -20,16 +20,20 @@
     </div>
 
     <div class="flex flex-col items-center justify-center gap-10 mt-20 w-[100%]">
-      <span class="text-3xl text-center">Video</span>
+      <span class="text-3xl text-center">Videos</span>
 
       <iframe class="w-[80%] h-[20vh] md:h-[50vh] lg:h-[80vh]"
-              :src="recap.video"
-              title="Neural Wave Hackathon 24"
-              allow="encrypted-media; picture-in-picture"
-              referrerpolicy="strict-origin-when-cross-origin"
-              allowfullscreen>
-      </iframe>
+        :src="recap.video"
+        allow="encrypted-media; picture-in-picture"
+        allowfullscreen 
+      />
     </div>
+    
+    <iframe class="w-[80%] h-[20vh] md:h-[50vh] lg:h-[80vh]"
+        :src="recap.tv"
+        allow="encrypted-media; picture-in-picture"
+        allowfullscreen
+    />
 
     <div class="flex flex-col items-center justify-center gap-10 mt-20 w-[100%] md:w-[70%]">
       <span class="text-3xl text-center">Teams</span>

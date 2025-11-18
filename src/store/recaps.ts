@@ -1,15 +1,16 @@
 import {defineStore} from "pinia";
 
 export interface Recap {
-    year: number;
-    n_images: number;
-    video: string;
-    statistics: Statistic[];
+    year: number
+    n_images: number
+    video: string
+    tv: string
+    statistics: Statistic[]
 }
 
 export interface Statistic {
-    value: string;
-    title: string;
+    value: string
+    title: string
 }
 
 export const useRecapsStore = defineStore('recaps', {
@@ -19,6 +20,7 @@ export const useRecapsStore = defineStore('recaps', {
                 year: 2024,
                 n_images: 60,
                 video: "https://www.youtube.com/embed/Kk3w4KxhwKg",
+                tv: "https://www.rsi.ch/play/embed?urn=urn:rsi:video:2310972&subdivisions=false",
                 statistics: [
                     {
                         value: "5",

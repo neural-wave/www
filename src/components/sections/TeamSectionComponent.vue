@@ -15,15 +15,19 @@
 
           <div class="flex gap-2">
             <a v-if="member.linkedin" :href="member.linkedin" target="_blank">
-              <img src="../../assets/icons/linkedin-line.svg" class="w-5 h-5" alt="twitter logo icon"/>
+              <img src="../../assets/icons/linkedin-line.svg" class="w-5 h-5" alt="linkedin logo icon"/>
             </a>
 
             <a v-if="member.github" :href="member.github" target="_blank">
-              <img src="../../assets/icons/github-line.svg" class="w-5 h-5" alt="twitter logo icon"/>
+              <img src="../../assets/icons/github-line.svg" class="w-5 h-5" alt="github logo icon"/>
             </a>
 
             <a v-if="member.website" :href="member.website" target="_blank">
-              <img src="../../assets/icons/globe-line.svg" class="w-5 h-5" alt="twitter logo icon"/>
+              <img src="../../assets/icons/globe-line.svg" class="w-5 h-5" alt="website logo icon"/>
+            </a>
+            
+            <a v-if="member.work" :href="member.work" target="_blank">
+              <img src="../../assets/icons/work-line.svg" class="w-5 h-5" alt="job logo icon"/>
             </a>
           </div>
         </div>
