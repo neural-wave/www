@@ -180,6 +180,14 @@ export const useTeamStore = defineStore("team", {
             work: "https://aegis-forge.inf.usi.ch",
           },
           {
+            name: "Elvi Mihai Sabau",
+            image: "elvi",
+            linkedin: "https://www.linkedin.com/in/elvimihai/",
+            github: "https://github.com/Frenzoid/",
+            website: "https://frenzoid.dev/",
+            work: "",
+          },
+          {
             name: "Stefano Taillefert",
             image: "stefano",
             linkedin: "https://www.linkedin.com/in/stefano-taillefert",
