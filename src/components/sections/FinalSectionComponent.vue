@@ -4,7 +4,7 @@
 
     <span class="text-center opacity-60 max-w-[500px]">
       Click the button below and fill the form to express your interest in participating. In addition, you will be
-      among the first to receive updates about the Neural Wave hackathon
+      among the first to receive updates about the Neural Wave hackathon.
     </span>
 
     <span class="text-center opacity-60">Registrations are now closed. See you next year!</span>

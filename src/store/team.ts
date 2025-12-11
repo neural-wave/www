@@ -106,7 +106,7 @@ export const useTeamStore = defineStore("team", {
             image: "edo",
             linkedin: "https://www.linkedin.com/in/edoardo-riggio/",
             github: "https://github.com/edoriggio",
-            website: "https://www.erc-apps.com/",
+            website: "https://edoriggio.com",
             work: "",
           },
           {
@@ -176,7 +176,7 @@ export const useTeamStore = defineStore("team", {
             image: "edo",
             linkedin: "https://www.linkedin.com/in/edoardo-riggio/",
             github: "https://github.com/edoriggio",
-            website: "https://www.erc-apps.com/",
+            website: "https://edoriggio.com",
             work: "https://aegis-forge.inf.usi.ch",
           },
           {

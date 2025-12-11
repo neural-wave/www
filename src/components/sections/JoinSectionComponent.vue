@@ -4,7 +4,7 @@
       <span class="text-3xl">Why Should I Join?</span>
 
       <span class="text-center opacity-60 max-w-[520px]">
-        Here is what the Neural Wave hackathon will offer to its participants during the course of the event’s weekend
+        Here is what the Neural Wave hackathon will offer to its participants during the course of the event’s weekend.
       </span>
     </div>
 
