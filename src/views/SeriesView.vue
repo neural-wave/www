@@ -39,7 +39,7 @@
       <span class="text-3xl text-center">Teams</span>
 
       <div class="flex flex-row flex-wrap justify-center items-center gap-9">
-        <repo-card-component v-for="repo in repos.repos" :key="repo.name" :repo="repo"/>
+        <repo-card-component v-for="repo in repos" :key="repo.name" :repo="repo"/>
       </div>
 
       <div class="flex gap-8 flex-wrap justify-center">
@@ -70,7 +70,7 @@
 import StatsCardComponent from "@/components/cards/StatsCardComponent.vue";
 import {mapActions} from "pinia";
 import {Recap, useRecapsStore} from "@/store/recaps.ts";
-import {Repos, useReposStore} from "@/store/repos.ts";
+import {Repo, useReposStore} from "@/store/repos.ts";
 import GalleryComponent from "@/components/GalleryComponent.vue";
 import RepoCardComponent from "@/components/cards/RepoCardComponent.vue";
 import CompaniesSectionComponent from "@/components/sections/CompaniesSectionComponent.vue";
@@ -89,7 +89,7 @@ export default {
     return {
       year: Number(this.$route.params.year),
       recap: {} as Recap,
-      repos: {} as Repos
+      repos: [] as Repo[],
     }
   },
   mounted() {
