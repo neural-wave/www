@@ -79,16 +79,16 @@ export const useFaqsStore = defineStore('faqs', {
                 answer: "No, because this hackathon is a competition where each team must start on equal footing.",
                 category: "Projects"
             },
-            {
-                question: "What resources and tools will be provided?",
-                answer: "You'll receive a lightning.ai account with a limited amount of credits per team, and each member will be assigned to a workspace within the platform.",
-                category: "Software and Tools"
-            },
-            {
-                question: "Will we have a tutorial on how to use the lightning.ai platform?",
-                answer: "Yes, on Friday, there will be an introductory seminar by lightning.ai staff on how to use the platform.",
-                category: "Software and Tools"
-            },
+            // {
+            //     question: "What resources and tools will be provided?",
+            //     answer: "You'll receive a lightning.ai account with a limited amount of credits per team, and each member will be assigned to a workspace within the platform.",
+            //     category: "Software and Tools"
+            // },
+            // {
+            //     question: "Will we have a tutorial on how to use the lightning.ai platform?",
+            //     answer: "Yes, on Friday, there will be an introductory seminar by lightning.ai staff on how to use the platform.",
+            //     category: "Software and Tools"
+            // },
             {
                 question: "Can we use our own tools and libraries?",
                 answer: "Yes, you can use any tool or library you find suitable for your task.",
@@ -96,7 +96,7 @@ export const useFaqsStore = defineStore('faqs', {
             },
             {
                 question: "What should I do if I have more questions or simply want to express my endless gratitude?",
-                answer: "That's so sweet! ❤️ You can reach out to us with any questions at hackathon2024@usi.ch.",
+                answer: "That's so sweet! ❤️ You can reach out to us with any questions at info@neuralwave.ch.",
                 category: "Other"
             }
         ] as Faq[]
