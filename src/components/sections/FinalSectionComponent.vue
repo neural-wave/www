@@ -7,7 +7,7 @@
       among the first to receive updates about the Neural Wave hackathon.
     </span>
 
-    <span class="text-center opacity-60">Registrations are not opened yet</span>
+    <span class="text-center opacity-60">Registrations are not opened yet, check back later!</span>
 <!--    <cta-component href="https://usi.qualtrics.com/jfe/form/SV_bgCFvEjVFUvXq4u" variant="cta">Fill in the Form</cta-component>-->
   </div>
 </template>
