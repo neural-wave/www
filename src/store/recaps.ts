@@ -40,7 +40,7 @@ export const useRecapsStore = defineStore('recaps', {
                     },
                     {
                         value: "10K",
-                        title: "CHF of Price Pool"
+                        title: "CHF of Prize Pool"
                     }
                 ] as Statistic[],
             }
