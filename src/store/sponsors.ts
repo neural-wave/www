@@ -13,8 +13,18 @@ export interface Sponsor {
 
 export const useSponsorsStore = defineStore("sponsors", {
   state: () => ({
-    categories: ["main", "silver", "bronze", "project", "compute", "other"],
+    categories: ["main", "gold", "silver", "bronze", "project", "compute", "other"],
     sponsors: [
+      {
+        year: 2026,
+        sponsors: [
+          {
+            name: "usi",
+            url: "https://www.usi.ch/",
+            type: "main",
+          },
+        ],
+      },
       {
         year: 2024,
         sponsors: [
