@@ -16,12 +16,12 @@ export const useScheduleStore = defineStore('scheduleStore', {
                 },
                 {
                     time: '18:15',
-                    event: 'Keynote by Duferco',
+                    event: 'Keynote by main sponsor',
                     place: 'Aula Magna'
                 },
                 {
                     time: '18:45',
-                    event: 'Tutorial by Lightning.ai on their platform',
+                    event: 'Tutorial by compute partner on their platform',
                     place: 'Aula Magna'
                 },
                 {

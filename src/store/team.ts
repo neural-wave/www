@@ -192,8 +192,8 @@ export const useTeamStore = defineStore("team", {
             image: "stefano",
             linkedin: "https://www.linkedin.com/in/stefano-taillefert",
             github: "https://github.com/Steeven9",
-            website: "https://soulsbros.ch",
-            work: "",
+            website: "https://steeven.soulsbros.ch",
+            work: "https://www.swisscom.ch/en/business.html",
           },
         ] as TeamMember[]
       }
