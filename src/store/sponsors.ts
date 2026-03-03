@@ -23,6 +23,11 @@ export const useSponsorsStore = defineStore("sponsors", {
             url: "https://www.usi.ch/",
             type: "main",
           },
+          {
+            name: "artificialy",
+            url: "https://www.artificialy.com/",
+            type: "gold",
+          },
         ],
       },
       {
