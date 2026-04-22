@@ -33,6 +33,11 @@ const router = createRouter({
             name: 'series_year',
             component: () => import('../views/SeriesView.vue')
         },
+        {
+            path: '/:year/recap',
+            name: 'series_year',
+            component: () => import('../views/SeriesView.vue')
+        },
     ]
 })
 

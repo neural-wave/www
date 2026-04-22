@@ -13,6 +13,7 @@
     "clsx": "^2.1.1",
     "embla-carousel-vue": "^8.5.1",
     "lucide-vue-next": "^0.436.0",
+    "npm": "^11.12.1",
     "pinia": "^2.2.2",
     "radix-vue": "^1.9.5",
     "tailwind-merge": "^2.5.2",
@@ -32,6 +33,5 @@
   },
   "resolutions": {
     "rollup": "npm:@rollup/wasm-node"
-  },
-  "packageManager": "yarn@1.22.22+sha512.a6b2f7906b721bba3d67d4aff083df04dad64c399707841b7acf00f6b133b7ac24255f2652fa22ae3534329dc6180534e98d17432037ff6fd140556e2bb3137e"
+  }
 }

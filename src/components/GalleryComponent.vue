@@ -27,7 +27,7 @@ export default defineComponent({
   components: {CarouselPrevious, CardContent, Card, CarouselItem, CarouselNext, CarouselContent, Carousel},
   props: {
     year: {
-      type: String,
+      type: Number,
       required: true,
     },
     images: {

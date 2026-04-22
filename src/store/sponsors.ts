@@ -28,6 +28,11 @@ export const useSponsorsStore = defineStore("sponsors", {
             url: "https://www.artificialy.com/",
             type: "gold",
           },
+          {
+            name: "banana",
+            url: "https://www.banana.ch/",
+            type: "bronze",
+          },
         ],
       },
       {
@@ -119,10 +124,6 @@ export const useSponsorsStore = defineStore("sponsors", {
             type: "other",
           },
         ] as Sponsor[],
-      },
-      {
-        year: 2026,
-        sponsors: [] as Sponsor[],
       },
     ] as Sponsors[],
   }),
