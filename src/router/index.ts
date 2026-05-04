@@ -31,11 +31,7 @@ const router = createRouter({
         {
             path: '/series/:year',
             name: 'series_year',
-            component: () => import('../views/SeriesView.vue')
-        },
-        {
-            path: '/:year/recap',
-            name: 'series_year',
+            alias: '/:year/recap',
             component: () => import('../views/SeriesView.vue')
         },
     ]
