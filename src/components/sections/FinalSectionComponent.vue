@@ -3,12 +3,14 @@
     <span class="text-5xl font-[500] text-center">Interested in this Amazing Event?</span>
 
     <span class="text-center opacity-60 max-w-[500px]">
-      Click the button below and fill the form to express your interest in participating. In addition, you will be
-      among the first to receive updates about the Neural Wave hackathon.
+      <!-- Click the button below and fill the form to express your interest in participating. In addition, you will be
+      among the first to receive updates about the Neural Wave hackathon. -->
+      Are you a company and interested in this event? Click below to check our prospectus for sponsoring Neural Wave.
     </span>
 
-    <span class="text-center opacity-60">Registrations are not opened yet, check back later!</span>
-<!--    <cta-component href="https://usi.qualtrics.com/jfe/form/SV_bgCFvEjVFUvXq4u" variant="cta">Fill in the Form</cta-component>-->
+    <!-- <span class="text-center opacity-60">Registrations are not opened yet, check back later!</span> -->
+    <!-- <cta-component href="https://usi.qualtrics.com/jfe/form/SV_bgCFvEjVFUvXq4u">Fill in the Form</cta-component> -->
+    <cta-component href="/src/assets/branding/prospectus.pdf" external>To the Prospectus</cta-component> 
   </div>
 </template>
 

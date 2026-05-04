@@ -1,5 +1,5 @@
 <template>
-  <a v-if="!href.startsWith('/')" :href="href" target="_blank" class="relative h-fit w-fit">
+  <a v-if="external" :href="href" target="_blank" class="relative h-fit w-fit">
     <img src="../assets/button/button-bg.svg" class="h-full w-[150px]" alt="CTA button background">
 
     <span class="absolute block m-auto top-0 bottom-0 left-0 right-0 w-fit h-fit font-[500] text-[15px] text-gray-300">
@@ -24,6 +24,10 @@ export default {
       type: String,
       required: true,
     },
+    external: {
+      type: Boolean,
+      default: false,
+    }
   }
 }
 </script>

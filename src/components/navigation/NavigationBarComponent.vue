@@ -11,7 +11,7 @@
       
       <div class="flex flex-wrap justify-center items-center w-full gap-8 max-[1045px]:flex-row sm:w-fit">
         <social-component />
-        <!-- <cta-component class="block" href="https://usi.qualtrics.com/jfe/form/SV_bgCFvEjVFUvXq4u">
+        <!-- <cta-component class="block" href="https://usi.qualtrics.com/jfe/form/SV_bgCFvEjVFUvXq4u" external>
           Register Now!
         </cta-component> -->
       </div>
