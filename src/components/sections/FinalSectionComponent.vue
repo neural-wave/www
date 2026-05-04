@@ -10,7 +10,7 @@
 
     <!-- <span class="text-center opacity-60">Registrations are not opened yet, check back later!</span> -->
     <!-- <cta-component href="https://usi.qualtrics.com/jfe/form/SV_bgCFvEjVFUvXq4u">Fill in the Form</cta-component> -->
-    <cta-component href="/src/assets/branding/prospectus.pdf" external>To the Prospectus</cta-component> 
+    <cta-component href="https://raw.githubusercontent.com/neural-wave/www/main/src/assets/branding/prospectus.pdf" external>To the Prospectus</cta-component> 
   </div>
 </template>
 
