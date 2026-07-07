@@ -1,4 +1,14 @@
-@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap');
+@font-face {
+  font-family: 'DM Sans';
+  font-style: italic;
+  src: url(./fonts/DMSans-Italic-VariableFont_opsz,wght.ttf) format('woff2');
+}
+
+@font-face {
+  font-family: 'DM Sans';
+  font-style: normal;
+  src: url(./fonts/DMSans-VariableFont_opsz,wght.ttf) format('woff2');
+}
 
 @tailwind base;
 @tailwind components;
