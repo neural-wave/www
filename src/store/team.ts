@@ -164,14 +164,6 @@ export const useTeamStore = defineStore("team", {
             work: "",
           },
           {
-            name: "Sophie Kergassner",
-            image: "sophie",
-            linkedin: "https://www.linkedin.com/in/sophie-kergassner/",
-            github: "https://github.com/sophie-kergassner",
-            website: "https://sophie-kergassner.github.io/",
-            work: "",
-          },
-          {
             name: "Edoardo Riggio",
             image: "edo",
             linkedin: "https://www.linkedin.com/in/edoardo-riggio/",
