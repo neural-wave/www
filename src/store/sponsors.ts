@@ -43,6 +43,16 @@ export const useSponsorsStore = defineStore("sponsors", {
             url: "https://www.banana.ch/",
             type: "bronze",
           },
+          {
+            name: "lifeware",
+            url: "https://www.lifeware.ch/",
+            type: "project",
+          },
+          {
+            name: "bosch",
+            url: "https://www.bosch.ch/",
+            type: "project",
+          },
         ],
       },
       {
