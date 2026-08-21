@@ -44,6 +44,16 @@ export const useSponsorsStore = defineStore("sponsors", {
             type: "bronze",
           },
           {
+            name: "swisscom",
+            url: "https://www.swisscom.ch/",
+            type: "bronze",
+          },
+          {
+            name: "cscs",
+            url: "https://www.cscs.ch/",
+            type: "bronze",
+          },
+          {
             name: "lifeware",
             url: "https://www.lifeware.ch/",
             type: "project",
