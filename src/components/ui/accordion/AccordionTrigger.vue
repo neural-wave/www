@@ -5,7 +5,7 @@ import {
   AccordionTrigger,
   type AccordionTriggerProps,
 } from 'radix-vue'
-import { Plus } from 'lucide-vue-next'
+import { Plus } from '@lucide/vue'
 import { cn } from '@/lib/utils'
 
 const props = defineProps<AccordionTriggerProps & { class?: HTMLAttributes['class'] }>()

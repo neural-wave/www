@@ -10,7 +10,7 @@
 </template>
 
 <script lang="ts">
-import {ArrowDown} from "lucide-vue-next";
+import {ArrowDown} from "@lucide/vue";
 import CtaComponent from "@/components/CtaComponent.vue";
 import HeroSectionComponent from "@/components/sections/HeroSectionComponent.vue";
 import CompaniesSectionComponent from "@/components/sections/CompaniesSectionComponent.vue";

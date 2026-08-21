@@ -25,7 +25,7 @@
 </template>
 
 <script>
-import { Menu as MenuIcon, X } from 'lucide-vue-next'
+import { Menu as MenuIcon, X } from '@lucide/vue'
 
 export default {
   name: 'NavigationComponent',

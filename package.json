@@ -7,13 +7,12 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@lucide/vue": "^1.33.0",
     "@types/node": "^22.5.0",
     "@vueuse/core": "^12.0.0",
     "class-variance-authority": "^0.7.0",
     "clsx": "^2.1.1",
     "embla-carousel-vue": "^8.5.1",
-    "lucide-vue-next": "^0.436.0",
-    "npm": "^11.12.1",
     "pinia": "^2.2.2",
     "radix-vue": "^1.9.5",
     "tailwind-merge": "^2.5.2",
@@ -31,7 +30,9 @@
     "vite": "^6.4.1",
     "vue-tsc": "^3.2.4"
   },
-  "resolutions": {
-    "rollup": "npm:@rollup/wasm-node"
+  "allowScripts": {
+    "esbuild@0.25.12": true,
+    "fsevents@2.3.3": true,
+    "vue-demi@0.14.10": true
   }
 }
