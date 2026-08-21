@@ -39,6 +39,11 @@ export const useSponsorsStore = defineStore("sponsors", {
             type: "silver",
           },
           {
+            name: "aet",
+            url: "https://www.aet.ch/",
+            type: "silver, project",
+          },
+          {
             name: "banana",
             url: "https://www.banana.ch/",
             type: "bronze",
