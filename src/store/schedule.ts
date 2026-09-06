@@ -37,7 +37,7 @@ export const useScheduleStore = defineStore('scheduleStore', {
                     place: 'Aula Magna'
                 },
                 {
-                    time: '08:30',
+                    time: '09:00',
                     event: 'Breakfast',
                     place: 'Foyer'
                 },
@@ -67,7 +67,7 @@ export const useScheduleStore = defineStore('scheduleStore', {
                     place: 'Aula Magna'
                 },
                 {
-                    time: '18:00',
+                    time: '19:00',
                     event: 'Dinner',
                     place: 'Foyer'
                 },
@@ -109,9 +109,9 @@ export const useScheduleStore = defineStore('scheduleStore', {
                     place: 'Aula Magna'
                 },
                 {
-                    time: '16:00',
-                    event: 'The end',
-                    place: 'Aula Magna'
+                    time: '16:00 17:00',
+                    event: 'Farewell apero',
+                    place: 'Foyer'
                 }
             ]
         }
