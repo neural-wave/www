@@ -99,13 +99,8 @@ export const useScheduleStore = defineStore('scheduleStore', {
                     place: 'Foyer'
                 },
                 {
-                    time: '14:00',
-                    event: 'Award ceremony',
-                    place: 'Aula Magna'
-                },
-                {
                     time: '15:00',
-                    event: 'Closing remarks',
+                    event: 'Award ceremony',
                     place: 'Aula Magna'
                 },
                 {
