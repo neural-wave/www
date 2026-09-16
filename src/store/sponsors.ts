@@ -34,6 +34,21 @@ export const useSponsorsStore = defineStore("sponsors", {
             type: "silver",
           },
           {
+            name: "bosch",
+            url: "https://www.bosch.ch/",
+            type: "project",
+          },
+          {
+            name: "lifeware",
+            url: "https://www.lifeware.ch/",
+            type: "project",
+          },
+          {
+            name: "sartiq",
+            url: "https://www.sartiq.ai/",
+            type: "project",
+          },
+          {
             name: "ail",
             url: "https://www.ail.ch/",
             type: "silver, project",
@@ -62,21 +77,6 @@ export const useSponsorsStore = defineStore("sponsors", {
             name: "b4s",
             url: "https://www.brandsforstudents.ch/",
             type: "bronze",
-          },
-          {
-            name: "lifeware",
-            url: "https://www.lifeware.ch/",
-            type: "project",
-          },
-          {
-            name: "bosch",
-            url: "https://www.bosch.ch/",
-            type: "project",
-          },
-          {
-            name: "sartiq",
-            url: "https://www.sartiq.ai/",
-            type: "project",
           },
           {
             name: "fizzy",
