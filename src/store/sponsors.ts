@@ -30,13 +30,13 @@ export const useSponsorsStore = defineStore("sponsors", {
           },
           {
             name: "usc",
-            url: "https://www.startup.usi.ch/en",
+            url: "https://www.startup.usi.ch/",
             type: "silver",
           },
           {
             name: "ail",
             url: "https://www.ail.ch/",
-            type: "silver",
+            type: "silver, project",
           },
           {
             name: "aet",
@@ -59,6 +59,11 @@ export const useSponsorsStore = defineStore("sponsors", {
             type: "bronze",
           },
           {
+            name: "b4s",
+            url: "https://www.brandsforstudents.ch/",
+            type: "bronze",
+          },
+          {
             name: "lifeware",
             url: "https://www.lifeware.ch/",
             type: "project",
@@ -67,6 +72,16 @@ export const useSponsorsStore = defineStore("sponsors", {
             name: "bosch",
             url: "https://www.bosch.ch/",
             type: "project",
+          },
+          {
+            name: "sartiq",
+            url: "https://www.sartiq.ai/",
+            type: "project",
+          },
+          {
+            name: "fizzy",
+            url: "https://www.fizzy.ch/",
+            type: "other",
           },
         ],
       },
@@ -80,12 +95,12 @@ export const useSponsorsStore = defineStore("sponsors", {
           },
           {
             name: "hasler",
-            url: "https://haslerstiftung.ch/",
+            url: "https://www.haslerstiftung.ch/",
             type: "main",
           },
           {
             name: "lightning",
-            url: "https://lightning.ai/",
+            url: "https://www.lightning.ai/",
             type: "compute",
           },
           {
@@ -115,17 +130,17 @@ export const useSponsorsStore = defineStore("sponsors", {
           },
           {
             name: "usc",
-            url: "https://www.startup.usi.ch/en",
+            url: "https://www.startup.usi.ch/",
             type: "bronze",
           },
           {
             name: "brightside",
-            url: "https://brightside-capital.com/",
+            url: "https://www.brightside-capital.com/",
             type: "bronze",
           },
           {
             name: "confinale",
-            url: "https://confinale.ch/en/",
+            url: "https://www.confinale.ch/",
             type: "bronze",
           },
           {
@@ -145,17 +160,17 @@ export const useSponsorsStore = defineStore("sponsors", {
           },
           {
             name: "seegarten",
-            url: "https://www.hotellido-lugano.com/en/",
+            url: "https://www.hotellido-lugano.com/",
             type: "other",
           },
           {
             name: "masaba",
-            url: "https://www.masabacoffee.ch/en",
+            url: "https://www.masabacoffee.ch/",
             type: "other",
           },
           {
             name: "repair-store",
-            url: "https://my.lugano.ch/repairstore/",
+            url: "https://www.my.lugano.ch/repairstore/",
             type: "other",
           },
         ] as Sponsor[],
