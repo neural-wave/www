@@ -50,7 +50,8 @@
 
         <div class="flex justify-between items-center max-[848px]:flex-col max-[848px]:gap-8">
             <span class="text-center opacity-60 font-[200] text-[14px]">
-                &copy;2024-{{ year }} Neural Wave
+                &copy;2024-{{ year }} Neural Wave &nbsp;&nbsp;·&nbsp;&nbsp;
+                <router-link to="privacy-policy" class="underline">Privacy Policy</router-link>
             </span>
 
             <social-component />
