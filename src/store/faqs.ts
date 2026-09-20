@@ -1,4 +1,4 @@
-import {defineStore} from "pinia";
+import { defineStore } from "pinia";
 
 export interface Faq {
     question: string
@@ -11,7 +11,12 @@ export const useFaqsStore = defineStore('faqs', {
         faqs: [
             {
                 question: "Is there a participation fee?",
-                answer: "Yes, there will be a small fee of 10 CHF.",
+                answer: "Yes, there will be a small fee of 10 CHF to settle after your application has been approved.",
+                category: "Registration"
+            },
+            {
+                question: "Are there any requirements to fulfill?",
+                answer: "You should be familiar with programming, training and fine-tuning AI models, and looking to have lots of fun!",
                 category: "Registration"
             },
             {
@@ -21,16 +26,16 @@ export const useFaqsStore = defineStore('faqs', {
             },
             {
                 question: "When will I know if I am accepted? What's the general timeline?",
-                answer: "You should receive an email during the month of September letting you know if you're in!",
+                answer: "You should receive an email during the month of October letting you know if you're in!",
                 category: "Registration"
             },
             {
-                question: "What if I sign-up and can not come?",
+                question: "What if I sign up and can't attend?",
                 answer: "We will be sad to see you go 🥺, but we will not be able to reimburse your participation fee, and hope to see you next year!",
                 category: "Registration"
             },
             {
-                question: "Can we sleep on the hackathon during the night?",
+                question: "Can we sleep at the hackathon during the night?",
                 answer: "Yes, there will be a designated sleeping area during the event, so don't forget to bring your sleeping bags.",
                 category: "Organization"
             },
@@ -56,7 +61,7 @@ export const useFaqsStore = defineStore('faqs', {
             },
             {
                 question: "Can I sign up alone?",
-                answer: "No worries! You can find with your team members on the Discord server we've set up for all participants, or you can meet them on the first day of the hackathon.",
+                answer: "Absolutely, but ou will need to be part of a team for the competition. You can find your team members on the Discord server we've set up for all participants, or you can meet them on the first day of the hackathon.",
                 category: "Team Up"
             },
             {
@@ -93,6 +98,11 @@ export const useFaqsStore = defineStore('faqs', {
                 question: "Can we use our own tools and libraries?",
                 answer: "Yes, you can use any tool or library you find suitable for your task.",
                 category: "Software and Tools"
+            },
+            {
+                question: "Is the event open to the public? Can my parents/friends come cheer for me?",
+                answer: "To avoid disturbing our competitors, we generally discourage spectators.",
+                category: "Other"
             },
             {
                 question: "What should I do if I have more questions or simply want to express my endless gratitude?",
