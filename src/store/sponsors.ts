@@ -29,6 +29,11 @@ export const useSponsorsStore = defineStore("sponsors", {
             type: "gold",
           },
           {
+            name: "hasler",
+            url: "https://www.haslerstiftung.ch/",
+            type: "gold",
+          },
+          {
             name: "usc",
             url: "https://www.startup.usi.ch/",
             type: "silver",
