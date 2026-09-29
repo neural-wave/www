@@ -21,11 +21,6 @@ export const useFaqsStore = defineStore("faqs", {
         category: "Registration",
       },
       {
-        question: "Can we come as a team?",
-        answer: "Yes! Also note that teams should be composed of 3-5 participants",
-        category: "Registration",
-      },
-      {
         question: "When will I know if I am accepted? What's the general timeline?",
         answer:
           "You should receive an email during the month of September letting you know if you're in!",
@@ -64,7 +59,7 @@ export const useFaqsStore = defineStore("faqs", {
       {
         question: "How to sign up as a team?",
         answer:
-          "During the registration process, you'll need to enter your team's name. Please make sure that all team members register and that they use the same team name.",
+          "During the registration process, you'll need to enter your team's name. Please make sure that all team members register and that they use the same team name. Also note that teams should be composed of 3-5 participants",
         category: "Team Up",
       },
       {
@@ -95,16 +90,18 @@ export const useFaqsStore = defineStore("faqs", {
           "No, because this hackathon is a competition where each team must start on equal footing.",
         category: "Projects",
       },
-      // {
-      //     question: "What resources and tools will be provided?",
-      //     answer: "You'll receive a lightning.ai account with a limited amount of credits per team, and each member will be assigned to a workspace within the platform.",
-      //     category: "Software and Tools"
-      // },
-      // {
-      //     question: "Will we have a tutorial on how to use the lightning.ai platform?",
-      //     answer: "Yes, on Friday, there will be an introductory seminar by lightning.ai staff on how to use the platform.",
-      //     category: "Software and Tools"
-      // },
+      {
+        question: "What resources and tools will be provided?",
+        answer:
+          "You'll receive a lightning.ai account with a limited amount of credits per team, and each member will be assigned to a workspace within the platform.",
+        category: "Software and Tools",
+      },
+      {
+        question: "Will we have a tutorial on how to use the lightning.ai platform?",
+        answer:
+          "Yes, on Friday, there will be an introductory seminar by lightning.ai staff on how to use the platform.",
+        category: "Software and Tools",
+      },
       {
         question: "Can we use our own tools and libraries?",
         answer: "Yes, you can use any tool or library you find suitable for your task.",
