@@ -64,6 +64,11 @@ export const useSponsorsStore = defineStore("sponsors", {
             type: "silver, project",
           },
           {
+            name: "sphn",
+            url: "https://www.sphn.ch/",
+            type: "project",
+          },
+          {
             name: "banana",
             url: "https://www.banana.ch/",
             type: "bronze",
