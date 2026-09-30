@@ -35,7 +35,7 @@ export const useFaqsStore = defineStore("faqs", {
       {
         question: "Can we sleep on the hackathon during the night?",
         answer:
-          "Yes, there will be a designated sleeping area during the event, so don't forget to bring your sleeping bags.",
+          "Yes, there will be a designated sleeping area during the event, so don't forget to bring your sleeping bags. Alternatively, we will provide some inflatable bean bags that you can use to rest.",
         category: "Organization",
       },
       {
