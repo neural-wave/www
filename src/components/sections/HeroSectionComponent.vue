@@ -21,19 +21,23 @@
         </span>
 
         <div class="flex flex-col items-center gap-4">
-            <span v-if="timer.isRunning" class="text-center opacity-60">
+            <!-- <span v-if="timer.isRunning" class="text-center opacity-60">
                 What are you waiting for? <br />
                 The registration will close in
+            </span> -->
+
+            <!-- <span v-else class="text-center opacity-60">
+                Registrations are currently closed.
+            </span> -->
+
+            <span class="text-center opacity-60">
+                The event is sold out. However, you can still join <br />
+                the waiting list though the form.
             </span>
 
-            <span v-else class="text-center opacity-60">
-                Registrations are currently closed
-            </span>
-            
-            <!-- <span class="text-center opacity-60">What are you waiting for? <br /> A limited number of spots are still available!</span> -->
             <!-- <span class="text-center opacity-60">Get ready for the 2nd edition in 2026!</span> -->
 
-            <div v-if="timer.isRunning" class="flex gap-2">
+            <!-- <div v-if="timer.isRunning" class="flex gap-2">
                 <div class="flex flex-col items-center">
                     <span class="text-2xl font-mono">{{ timer.days }}</span>
                     <span class="text-xs text-gray-400">Days</span>
@@ -59,14 +63,23 @@
                     <span class="text-2xl font-mono">{{ timer.seconds }}</span>
                     <span class="text-xs text-gray-400">Seconds</span>
                 </div>
-            </div>
+            </div> -->
 
-            <cta-component
+            <!-- <cta-component
                 v-if="timer.isRunning"
                 href="https://eur.cvent.me/yR7QoZ?RefId=Registration"
                 external
-                >Register Now!</cta-component
             >
+                Register Now!
+            </cta-component> -->
+
+            <cta-component
+                href="https://eur.cvent.me/yR7QoZ?RefId=Registration"
+                external
+            >
+                Fill the form
+            </cta-component>
+
             <!-- <cta-component href="/series/2024">Go to the 2024 recap!</cta-component> -->
         </div>
     </div>
