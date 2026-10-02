@@ -19,7 +19,7 @@
                     <img
                         :src="getImage(sponsor.name)"
                         :alt="`${sponsor.name} logo`"
-                        :class="sponsor.name === 'usi' ? 'h-[70px]' : ['main', 'silver'].includes(category) ?'h-[45px]' : 'h-[30px]'"
+                        :class="sponsor.name === 'usi' ? 'h-[70px]' : ['main', 'gold', 'silver'].includes(category) ? 'h-[45px]' : 'h-[40px]'"
                     />
                 </a>
             </span>

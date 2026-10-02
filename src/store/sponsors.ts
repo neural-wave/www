@@ -93,6 +93,11 @@ export const useSponsorsStore = defineStore("sponsors", {
             url: "https://www.fizzy.ch/",
             type: "other",
           },
+          {
+            name: "lura",
+            url: "https://www.stampamagliette.ch/",
+            type: "other",
+          },
         ],
       },
       {
