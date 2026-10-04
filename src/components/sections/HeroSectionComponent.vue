@@ -32,7 +32,7 @@
 
             <span class="text-center opacity-60">
                 The event is sold out. However, you can still join <br />
-                the waiting list though the form.
+                the waiting list through the form.
             </span>
 
             <!-- <span class="text-center opacity-60">Get ready for the 2nd edition in 2026!</span> -->
