@@ -8,10 +8,10 @@
         <img :src="getImage(number)" alt="photo" class="object-cover object-center h-auto">
       </carousel-item>
     </carousel-content>
-    <carousel-previous class="bg-[#160D2F] bg-opacity-20 border border-nw-border rounded-full hover:bg-[#160D2F] hover:text-white" />
+    <carousel-previous class="bg-[#160D2F]/20 border border-nw-border rounded-full hover:bg-[#160D2F] hover:text-white" />
     <carousel-next
         v-if="canScrollNext"
-        class="bg-[#160D2F] bg-opacity-20 border border-nw-border rounded-full hover:bg-[#160D2F] hover:text-white"
+        class="bg-[#160D2F]/20 border border-nw-border rounded-full hover:bg-[#160D2F] hover:text-white"
     />
   </carousel>
 </template>

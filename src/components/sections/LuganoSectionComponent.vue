@@ -2,10 +2,10 @@
     <div class="flex flex-col items-center justify-center gap-20">
       <span class="text-3xl text-center">Artificial Intelligence + Lugano <br /> A Match Made in Heaven</span>
 
-      <div class="flex flex-wrap justify-center gap-12 max-w-[958px]">
-        <div class="flex flex-row items-start max-[1005px]:max-w-[536px] max-w-[958px] bg-[#160D2F] bg-opacity-20 border border-nw-border rounded-[8px] p-7 gap-12 max-[1005px]:gap-7 max-[1005px]:flex-col">
+      <div class="flex flex-wrap justify-center gap-12 max-w-239.5">
+        <div class="flex flex-row items-start max-[1005px]:max-w-134 max-w-239.5 bg-[#160D2F]/20 border border-nw-border rounded-[8px] p-7 gap-12 max-[1005px]:gap-7 max-[1005px]:flex-col">
           <div class="flex flex-col min-[1005px]:w-[50%] gap-7">
-            <img src="../../assets/icons/history.svg" alt="history icon" class="w-[60px]" />
+            <img src="../../assets/icons/history.svg" alt="history icon" class="w-15" />
 
             <div class="flex flex-col gap-2">
               <span class="text-xl font-bold">History</span>

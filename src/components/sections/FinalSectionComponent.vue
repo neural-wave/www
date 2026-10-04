@@ -1,6 +1,6 @@
 <template>
   <div class="flex flex-col justify-center items-center gap-9 mt-[200px] mb-[200px] sm:mt-[400px] sm:mb-[200px]">
-    <span class="text-5xl font-[500] text-center">Interested in this Amazing Event?</span>
+    <span class="text-5xl font-medium text-center">Interested in this Amazing Event?</span>
 
     <span class="text-center opacity-60 max-w-[500px]">
       <!-- Click the button below and fill the form to express your interest in participating. In addition, you will be

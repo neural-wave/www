@@ -1,12 +1,12 @@
 <template>
   <div class="flex flex-col">
-    <nav class="flex flex-col items-center gap-8 p-[50px] min-[1045px]:flex-row min-[1045px]:justify-between bg-transparent">
+    <nav class="flex flex-col items-center gap-8 p-12.5 min-[1045px]:flex-row min-[1045px]:justify-between bg-transparent">
       <div class="flex flex-row items-center justify-between w-full min-[1045px]:hidden">
-        <img src="../../assets/branding/logo-horizontal.svg" class="w-[210px]" alt="Neural Wave logo"/>
+        <img src="../../assets/branding/logo-horizontal.svg" class="w-52.5" alt="Neural Wave logo"/>
         <navigation-component />
       </div>
 
-      <img src="../../assets/branding/logo-horizontal.svg" class="w-[210px] max-[1045px]:hidden" alt="Neural Wave logo"/>
+      <img src="../../assets/branding/logo-horizontal.svg" class="w-52.5 max-[1045px]:hidden" alt="Neural Wave logo"/>
       <navigation-component class="max-[1045px]:hidden" />
       
       <div class="flex flex-wrap justify-center items-center w-full gap-8 max-[1045px]:flex-row sm:w-fit">
@@ -17,7 +17,7 @@
       </div>
     </nav>
 
-    <separator class="mx-[50px] bg-nw-border h-[1px]" />
+    <separator class="mx-12.5 bg-nw-border h-px" />
   </div>
 </template>
 

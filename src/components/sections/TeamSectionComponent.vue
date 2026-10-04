@@ -11,7 +11,7 @@
         />
 
         <div class="flex flex-col gap-2">
-          <span class="font-[300] text-[14px]">{{ member.name }}</span>
+          <span class="font-light text-[14px]">{{ member.name }}</span>
 
           <div class="flex gap-2">
             <a v-if="member.linkedin" :href="member.linkedin" target="_blank">

@@ -13,7 +13,7 @@
             />
         </div>
 
-        <span class="text-5xl font-[500] text-center">Where Innovation Meets AI</span>
+        <span class="text-5xl font-medium text-center">Where Innovation Meets AI</span>
 
         <span class="text-center opacity-60 max-w-[546px]">
             Embark on an exhilarating hackathon with global innovators. Leverage AI techniques, tackle

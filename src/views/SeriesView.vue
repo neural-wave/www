@@ -1,7 +1,7 @@
 <template>
   <div class="flex flex-col justify-center items-center gap-20 py-20 px-[50px]">
     <div class="flex flex-col justify-center items-center gap-9 py-20 sm:h-[calc(80vh-350px)]">
-      <span class="text-5xl font-[500] text-center">Neural Wave {{ year }}</span>
+      <span class="text-5xl font-medium text-center">Neural Wave {{ year }}</span>
 
       <div class="flex flex-wrap justify-center gap-6">
         <img src="../assets/pill/pill-location.svg" class="h-[35px]" alt="Lugano is the location of the hackathon" />
@@ -13,13 +13,13 @@
       <stats-card-component v-for="stat in recap.statistics" :key="stat.title" :stat="stat"/>
     </div>
 
-    <div class="flex flex-col items-center justify-center gap-10 mt-20 w-[100%]">
+    <div class="flex flex-col items-center justify-center gap-10 mt-20 w-full">
       <span class="text-3xl text-center">Gallery</span>
 
       <gallery-component :year="year" :images="recap.n_images" />
     </div>
 
-    <div class="flex flex-col items-center justify-center gap-10 mt-20 w-[100%]">
+    <div class="flex flex-col items-center justify-center gap-10 mt-20 w-full">
       <span class="text-3xl text-center">Videos</span>
 
       <iframe class="w-[80%] h-[20vh] md:h-[50vh] lg:h-[80vh]"
@@ -35,7 +35,7 @@
         allowfullscreen
     />
 
-    <div class="flex flex-col items-center justify-center gap-10 mt-20 w-[100%] md:w-[70%]">
+    <div class="flex flex-col items-center justify-center gap-10 mt-20 w-full md:w-[70%]">
       <span class="text-3xl text-center">Teams</span>
 
       <div class="flex flex-row flex-wrap justify-center items-center gap-9">

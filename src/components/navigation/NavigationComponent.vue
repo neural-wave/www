@@ -2,7 +2,7 @@
   <div>
     <menu-icon v-if="!showMenu" class="h-6 w-6 min-[1046px]:hidden cursor-pointer" @click="toggleMenu" />
 
-    <nav class="flex py-2 px-6 gap-8 rounded-full border border-nw-border bg-[#160D2F] bg-opacity-20 max-[1045px]:hidden" id="menu">
+    <nav class="flex py-2 px-6 gap-8 rounded-full border border-nw-border bg-[#160D2F]/20 max-[1045px]:hidden" id="menu">
       <router-link to="/" :class="$route.name !== 'home' ? 'opacity-60 hover:opacity-100' : ''">Home</router-link>
       <router-link to="/location" :class="$route.name !== 'location' ? 'opacity-60 hover:opacity-100' : ''">Location</router-link>
       <router-link to="/schedule" :class="$route.name !== 'schedule' ? 'opacity-60 hover:opacity-100' : ''">Schedule</router-link>

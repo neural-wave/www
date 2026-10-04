@@ -1,6 +1,6 @@
 <template>
   <div class="flex flex-col m-[50px] sm:m-[100px] gap-16">
-    <card v-for="(events, day) in schedule()" class="border border-nw-border bg-[#160D2F] bg-opacity-20">
+    <card v-for="(events, day) in schedule()" class="border border-nw-border bg-[#160D2F]/20">
       <card-header>
         <card-title class="text-white">{{ String(day[0]).toUpperCase() + day.substring(1) }}</card-title>
       </card-header>
