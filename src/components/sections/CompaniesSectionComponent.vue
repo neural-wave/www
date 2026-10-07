@@ -1,15 +1,15 @@
 <template>
-  <div v-if="sponsors.length > 0" class="flex flex-col items-center gap-10 justify-center max-w-[990px]">
+  <div v-if="sponsors.length > 0" class="flex flex-col items-center gap-10 justify-center max-w-247.5">
     <span class="text-3xl text-center">Our Sponsors</span>
 
-    <span class="flex flex-col items-center gap-20 justify-center max-w-[990px]">
+    <span class="flex flex-col items-center gap-20 justify-center max-w-247.5">
       <template v-for="category in categories()" :key="category.valueOf()">
         <span
             v-if="sponsors.filter(el => el.type.includes(category)).length != 0"
             class="flex flex-col items-center justify-center gap-5"
-            :class="category === 'project' ? 'max-w-[500px]' : 'max-w-[990px]'"
+            :class="category === 'project' ? 'max-w-125' : 'max-w-247.5'"
         >
-            <span class="text-center opacity-60 max-w-[520px]">
+            <span class="text-center opacity-60 max-w-130">
               {{ category[0].toUpperCase()+category.slice(1) }}
               {{ ['main', 'gold', 'silver', 'bronze'].includes(category) ? 'Sponsors' : 'Partners' }}
             </span>
@@ -19,7 +19,7 @@
                     <img
                         :src="getImage(sponsor.name)"
                         :alt="`${sponsor.name} logo`"
-                        :class="sponsor.name === 'usi' ? 'h-[70px]' : ['main', 'gold', 'silver'].includes(category) ? 'h-[45px]' : 'h-[40px]'"
+                        :class="sponsor.name === 'usi' ? 'h-17.5' : ['main', 'gold', 'silver'].includes(category) ? 'h-11.25' : 'h-10'"
                     />
                 </a>
             </span>

@@ -13,7 +13,7 @@ export interface Sponsor {
 
 export const useSponsorsStore = defineStore("sponsors", {
   state: () => ({
-    categories: ["main", "gold", "silver", "bronze", "project", "compute", "other"],
+    categories: ["main", "gold", "silver", "bronze", "project", "compute", "logistics"],
     sponsors: [
       {
         year: 2026,
@@ -91,12 +91,12 @@ export const useSponsorsStore = defineStore("sponsors", {
           {
             name: "fizzy",
             url: "https://www.fizzy.ch/",
-            type: "other",
+            type: "logistics",
           },
           {
             name: "lura",
             url: "https://www.stampamagliette.ch/",
-            type: "other",
+            type: "logistics",
           },
         ],
       },
@@ -176,17 +176,17 @@ export const useSponsorsStore = defineStore("sponsors", {
           {
             name: "seegarten",
             url: "https://www.hotellido-lugano.com/",
-            type: "other",
+            type: "logistics",
           },
           {
             name: "masaba",
             url: "https://www.masabacoffee.ch/",
-            type: "other",
+            type: "logistics",
           },
           {
             name: "repair-store",
             url: "https://www.my.lugano.ch/repairstore/",
-            type: "other",
+            type: "logistics",
           },
         ] as Sponsor[],
       },
@@ -195,8 +195,7 @@ export const useSponsorsStore = defineStore("sponsors", {
   actions: {
     getSponsorsByYear() {
       return (year: number): Sponsor[] => {
-        return this.sponsors.filter((obj: Sponsors) => obj.year == year)[0]
-          .sponsors;
+        return this.sponsors.filter((obj: Sponsors) => obj.year == year)[0].sponsors;
       };
     },
   },
