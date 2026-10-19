@@ -30,9 +30,13 @@
                 Registrations are currently closed.
             </span> -->
 
-            <span class="text-center opacity-60">
+            <!-- <span class="text-center opacity-60">
                 The event is sold out. However, you can still join <br />
                 the waiting list through the form.
+            </span> -->
+
+            <span class="text-center opacity-60">
+                The event is concluded, see you in the next edition!
             </span>
 
             <!-- <span class="text-center opacity-60">Get ready for the 2nd edition in 2026!</span> -->
@@ -65,20 +69,7 @@
                 </div>
             </div> -->
 
-            <!-- <cta-component
-                v-if="timer.isRunning"
-                href="https://eur.cvent.me/yR7QoZ?RefId=Registration"
-                external
-            >
-                Register Now!
-            </cta-component> -->
-
-            <cta-component
-                href="https://eur.cvent.me/yR7QoZ?RefId=Registration"
-                external
-            >
-                Fill the form
-            </cta-component>
+            <!-- <cta-component href="" external> Fill the form </cta-component> -->
 
             <!-- <cta-component href="/series/2024">Go to the 2024 recap!</cta-component> -->
         </div>
