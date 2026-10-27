@@ -40,7 +40,13 @@
                     <p class="font-bold text-xl">Series</p>
 
                     <div class="flex flex-col gap-1 text-[rgba(255,255,255,0.7)]">
-                        <router-link to="/series/2024">1st Edition [2024]</router-link>
+                        <router-link
+                            v-for="serie in series"
+                            :key="serie.year"
+                            :to="`/series/${serie.year}`"
+                        >
+                            {{ serie.title }} [{{ serie.year }}]
+                        </router-link>
                     </div>
                 </div>
             </div>
@@ -62,6 +68,8 @@
 <script lang="ts">
 import SocialComponent from "@/components/navigation/SocialComponent.vue";
 import NavigationComponent from "@/components/navigation/NavigationComponent.vue";
+import { useSeriesStore, Serie } from "@/store/series.ts";
+import { mapActions } from "pinia";
 
 export default {
     name: "FooterBarComponent",
@@ -72,7 +80,14 @@ export default {
     data() {
         return {
             year: new Date().getFullYear(),
+            series: [] as Serie[],
         };
+    },
+    mounted() {
+        this.series = this.getSeries();
+    },
+    methods: {
+        ...mapActions(useSeriesStore, ["getSeries"]),
     },
 };
 </script>

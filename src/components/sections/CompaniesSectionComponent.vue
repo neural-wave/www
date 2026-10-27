@@ -26,13 +26,6 @@
         </span>
       </template>
     </span>
-<!--    <span class="text-center opacity-60">Our Partners</span>-->
-
-<!--    <div class="flex flex-wrap justify-center items-center gap-10">-->
-<!--      <a v-for="sponsor in sponsors()" :key="sponsor.name" :href="sponsor.url" target="_blank">-->
-<!--        <img :src="getImage(sponsor.name)" :alt="`${sponsor.name} logo`" class="h-[34px]" />-->
-<!--      </a>-->
-<!--    </div>-->
   </div>
 </template>
 

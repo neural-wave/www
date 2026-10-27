@@ -8,7 +8,6 @@ export interface Repos {
 export interface Repo {
   team: string;
   project: string;
-  url: string;
   prizes: string[];
 }
 
@@ -21,104 +20,207 @@ export const useReposStore = defineStore("repos", {
           {
             team: "MoliseAI",
             project: "Ai4Privacy",
-            url: "https://github.com/Neural-Wave/project-MoliseAI",
             prizes: [],
           },
           {
             team: "CudaLibre",
             project: "Duferco",
-            url: "https://github.com/Neural-Wave/project-CudaLibre",
             prizes: ["gold", "project"],
           },
           {
             team: "Operators Of The Neuron",
             project: "Bosch",
-            url: "https://github.com/Neural-Wave/project-OperatorsOfTheNeuron",
             prizes: [],
           },
           {
             team: "NeuroGlobetrotters",
             project: "Bosch",
-            url: "https://github.com/Neural-Wave/project-NeuroGlobetrotters",
             prizes: ["bronze", "project"],
           },
           {
             team: "The Last Ones",
             project: "Ai4Privacy",
-            url: "https://github.com/Neural-Wave/project-TheLastOnes",
             prizes: [],
           },
           {
             team: "Underfitted",
             project: "Swisscom",
-            url: "https://github.com/Neural-Wave/project-Underfitted",
             prizes: [],
           },
           {
             team: "Lazzaroni",
             project: "PastaHR",
-            url: "https://github.com/Neural-Wave/project-Lazzaroni",
             prizes: [],
           },
           {
             team: "Dropped Neurons",
             project: "Ai4Privacy",
-            url: "https://github.com/Neural-Wave/project-DroppedNeurons",
             prizes: ["project"],
           },
           {
             team: "Squigosauri",
             project: "PastaHR",
-            url: "https://github.com/Neural-Wave/project-Squigosauri",
             prizes: ["bronze", "project"],
           },
           {
             team: "BischBosch",
             project: "Bosch",
-            url: "https://github.com/Neural-Wave/project-BischBosch",
             prizes: [],
           },
           {
             team: "Sbirulini",
             project: "Duferco",
-            url: "https://github.com/Neural-Wave/project-Sbirulini",
             prizes: ["bronze"],
           },
           {
             team: "DaemonKiller",
             project: "Swisscom",
-            url: "https://github.com/Neural-Wave/project-DaemonKiller",
             prizes: [],
           },
           {
             team: "Mensa Martiri",
             project: "Duferco",
-            url: "https://github.com/Neural-Wave/project-MensaMartiri",
             prizes: [],
           },
           {
             team: "Team Name",
             project: "Swisscom",
-            url: "https://github.com/Neural-Wave/project-TeamName",
             prizes: ["silver", "project"],
           },
           {
             team: "Hackerbros",
             project: "Ai4Privacy",
-            url: "https://github.com/Neural-Wave/project-Hackerbros",
             prizes: [],
           },
           {
             team: "Og D3A",
             project: "Bosch",
-            url: "https://github.com/Neural-Wave/project-OgD3A",
             prizes: [],
           },
           {
             team: "RadYomki",
             project: "Duferco",
-            url: "https://github.com/Neural-Wave/project-RadYomki",
             prizes: [],
+          },
+        ] as Repo[],
+      },
+      {
+        year: 2026,
+        repos: [
+          {
+            team: "PhDs but not for long",
+            project: "AET",
+            prizes: [],
+          },
+          {
+            team: "Inde",
+            project: "AET",
+            prizes: [],
+          },
+          {
+            team: "Tom&Will",
+            project: "AET",
+            prizes: [],
+          },
+          {
+            team: "ApplePi",
+            project: "AET",
+            prizes: ["gold", "project"],
+          },
+          {
+            team: "AI-uto!",
+            project: "AIL",
+            prizes: [],
+          },
+          {
+            team: "TokenLarpers",
+            project: "AIL",
+            prizes: [],
+          },
+          {
+            team: "dropped_neurons",
+            project: "AIL",
+            prizes: [],
+          },
+          {
+            team: "SilCrst",
+            project: "AIL",
+            prizes: ["silver", "project"],
+          },
+          {
+            team: "D3A24",
+            project: "Sartiq",
+            prizes: ["project"],
+          },
+          {
+            team: "Better Call Sol",
+            project: "Sartiq",
+            prizes: [],
+          },
+          {
+            team: "AACtivEtion Functions",
+            project: "Sartiq",
+            prizes: [],
+          },
+          {
+            team: "CUDA_Libre",
+            project: "Bosch",
+            prizes: ["bronze", "project"],
+          },
+          {
+            team: "Fuma c'anduma",
+            project: "Bosch",
+            prizes: [],
+          },
+          {
+            team: "Slop Busters",
+            project: "Bosch",
+            prizes: [],
+          },
+          {
+            team: "blackpepper-ai",
+            project: "Bosch",
+            prizes: [],
+          },
+          {
+            team: "Fine-Tuned Stepperz",
+            project: "SIB",
+            prizes: [],
+          },
+          {
+            team: "praedixit",
+            project: "SIB",
+            prizes: [],
+          },
+          {
+            team: "ScientificShrimps",
+            project: "SIB",
+            prizes: ["project"],
+          },
+          {
+            team: "EpsilonDev",
+            project: "SIB",
+            prizes: [],
+          },
+          {
+            team: "Legal Immigrants",
+            project: "Lifeware",
+            prizes: [],
+          },
+          {
+            team: "Fable 7.4",
+            project: "Lifeware",
+            prizes: [],
+          },
+          {
+            team: "NaMa",
+            project: "Lifeware",
+            prizes: [],
+          },
+          {
+            team: "MortisAI-Lugano26",
+            project: "Lifeware",
+            prizes: ["project"],
           },
         ] as Repo[],
       },
