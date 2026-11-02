@@ -21,25 +21,9 @@
         </span>
 
         <div class="flex flex-col items-center gap-4">
-            <!-- <span v-if="timer.isRunning" class="text-center opacity-60">
-                What are you waiting for? <br />
-                The registration will close in
-            </span> -->
-
-            <!-- <span v-else class="text-center opacity-60">
-                Registrations are currently closed.
-            </span> -->
-
-            <!-- <span class="text-center opacity-60">
-                The event is sold out. However, you can still join <br />
-                the waiting list through the form.
-            </span> -->
-
             <span class="text-center opacity-60">
-                The event is concluded, see you in the next edition!
+                The 2026 recap is out! Check it out by clicking the button below
             </span>
-
-            <!-- <span class="text-center opacity-60">Get ready for the 2nd edition in 2026!</span> -->
 
             <!-- <div v-if="timer.isRunning" class="flex gap-2">
                 <div class="flex flex-col items-center">
@@ -70,8 +54,7 @@
             </div> -->
 
             <!-- <cta-component href="" external> Fill the form </cta-component> -->
-
-            <!-- <cta-component href="/series/2024">Go to the 2024 recap!</cta-component> -->
+             <cta-component href="/series/2026">Go to the 2026 recap!</cta-component> 
         </div>
     </div>
 </template>

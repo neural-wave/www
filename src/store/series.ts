@@ -18,7 +18,7 @@ export const useSeriesStore = defineStore("seriesStore", {
       },
       {
         title: "2nd Edition",
-        subtitle: "25-27 Oct 2024",
+        subtitle: "16-18 Oct 2026",
         year: 2026,
         cover: "photo-27.jpg",
       },

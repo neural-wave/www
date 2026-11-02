@@ -59,7 +59,7 @@ export const useRecapsStore = defineStore("recaps", {
       {
         year: 2026,
         n_images: 71,
-        video: "",
+        video: "https://www.youtube.com/embed/WSmnaDMoE28",
         tv: "",
         statistics: [
           {
@@ -85,10 +85,10 @@ export const useRecapsStore = defineStore("recaps", {
             title: "Countries",
           },
           {
-            value: "12K",
+            value: "12.5K",
             title: "CHF of Prize Pool",
             changeSign: "↑",
-            changeValue: "2K",
+            changeValue: "2.5K",
           },
         ] as Statistic[],
       },
