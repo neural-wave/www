@@ -3,12 +3,12 @@
         <div class="flex flex-col gap-10 w-full p-[50px] sm:p-[100px]">
             <span class="text-2xl font-bold">Previous Editions</span>
 
-            <div class="flex gap-6">
+            <div class="flex flex-col items-center gap-6 min-[1045px]:flex-row">
                 <series-card-component
                     v-for="serie in series"
                     :key="serie.year"
                     :serie="serie"
-                    class="w-max"
+                    class="min-[1045px]:w-max"
                 />
             </div>
         </div>
