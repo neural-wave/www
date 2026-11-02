@@ -1,5 +1,5 @@
 <template>
-    <div class="h-[calc(100vh-445px)]">
+    <div class="h-max min-[1045px]:h-[calc(100vh-445px)]">
         <div class="flex flex-col gap-10 w-full p-[50px] sm:p-[100px]">
             <span class="text-2xl font-bold">Previous Editions</span>
 
